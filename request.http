@@ -42,8 +42,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyOWZm
 ###Crear un usuario
 POST http://localhost:3100/api/users HTTP/1.1
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyOWZmZWU5YTE5ZmYxZDc3MzdhYjkxOSIsIm5hbWUiOiJDaHJpc3RpYW4gQXRhbGFzIiwiZW1haWwiOiJzYW50aWxsYW4uc2lsdmFAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMTAkUnZMV0gwbWFjSGlhbTdteDB0ZWswZVFFTVhnNmd4ZjJDMlRCbi9qQVFsWG1QeWlxejlNTXkiLCJ0aXBvIjoiMCJ9LCJpYXQiOjE2NTUyMjUyMzYsImV4cCI6MTY1NTIyODgzNn0.FpWDYJ4exH6buEIFOCAsENq-4ISdS1lcICiJRDixKJQ
-
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyYWE4NGI4MWUxMjYyYjkzNTRiN2NhZCIsIm5hbWUiOiJEYXZpZCBWaWxsYWdyYW5hIiwiZW1haWwiOiJkYXZpZDF2aWxsYWdyYW5hMUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCQuc09zMEJCSmZlSVVULzMzNXM3T2NPRG5rOFBGOTl6dWlNMWpGQ2VRa2gxcEI2SVdKUnB5NiIsInRpcG8iOiIxIiwiX192IjowfSwiaWF0IjoxNjU1NjE1MTM2LCJleHAiOjE2NTU2MTg3MzZ9.iIA1xZ0XAelcY8gAa8RJG7ZuWuhzr2RVXaOFJ26XhwA
 {
     "name": "David Villagrana",
     "email": "david1villagrana1@gmail.com",
@@ -54,15 +53,17 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyOWZm
 ###Usuarios
 GET http://localhost:3100/api/users HTTP/1.1
 Content-Type: application/json
-Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyOWZmZWU5YTE5ZmYxZDc3MzdhYjkxOSIsIm5hbWUiOiJDaHJpc3RpYW4gQXRhbGFzIiwiZW1haWwiOiJzYW50aWxsYW4uc2lsdmFAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMTAkUnZMV0gwbWFjSGlhbTdteDB0ZWswZVFFTVhnNmd4ZjJDMlRCbi9qQVFsWG1QeWlxejlNTXkiLCJ0aXBvIjoiMCJ9LCJpYXQiOjE2NTUyMjUyMzYsImV4cCI6MTY1NTIyODgzNn0.FpWDYJ4exH6buEIFOCAsENq-4ISdS1lcICiJRDixKJQ
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyYWE4NGI4MWUxMjYyYjkzNTRiN2NhZCIsIm5hbWUiOiJEYXZpZCBWaWxsYWdyYW5hIiwiZW1haWwiOiJkYXZpZDF2aWxsYWdyYW5hMUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCQuc09zMEJCSmZlSVVULzMzNXM3T2NPRG5rOFBGOTl6dWlNMWpGQ2VRa2gxcEI2SVdKUnB5NiIsInRpcG8iOiIxIiwiX192IjowfSwiaWF0IjoxNjU1NjE2MDA5LCJleHAiOjE2NTU2MTk2MDl9.4chBj_pmWabqIvrmN1YoWV3dQolhy-tGns8slfEC8KI
 
 ###Autenticar Usuario
 POST http://localhost:3100/api/login HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "santillan.silva@gmail.com",
-    "password": "Chris123"
+    "email": "david1villagrana1@gmail.com",
+    "password": "654321David"
+    //"email": "santillan.silva@gmail.com",
+    //"password": "Chris123"
 }
 
 
